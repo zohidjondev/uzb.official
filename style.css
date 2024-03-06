@@ -1,0 +1,146 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #1e1e1e, #024c18);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.title-container {
+    text-align: center;
+    padding: 20px 0; 
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+
+}
+
+.guidance h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.guidance p {
+    color: #d4d4d4;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    border-left: 3px solid #ffffff;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.guidance h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.guidance ul {
+    list-style-type: none;
+}
+.guidance ol {
+    color: #d4d4d4;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.guidance ol li {
+    margin-bottom: 5px;
+}
+
+
+
+#demo {
+    text-decoration: none;
+    color: #DC5F00;
+}
+
+.langueages {
+    display: flex;
+    justify-content: space-between; /* Adjusted to space between */
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.langueages span {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.langueages h4 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.langueages a {
+    font-size: 1.3em;
+    font-weight: 600;
+    position: relative;
+    color: azure; /* Initial text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.langueages a:hover {
+    color: #024c18; /* Change text color on hover */
+    transform: translateY(-3px); /* Move text slightly up on hover */
+}
+
+
+
+
+
+
+
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #024c18;
+    color: #ffffff;
+    padding: 10px 0;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 15px;
+}
+
+footer p {
+    margin: 0;
+    text-decoration: none;
+    color: #d4d4d4;
+}
+
+/* Additional styles for better readability */
+.container {
+    margin-bottom: 60px; /* Adjusted margin to accommodate footer */
+}
+
+.guidance p {
+    position: relative;
+}
+
+.edited {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+}
